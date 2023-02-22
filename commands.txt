@@ -1,0 +1,7 @@
+coverage run --omit='*/.venv/*' manage.py test
+## omit the venv folder when running tests
+
+coverage html
+## creates htmlcov folder
+### nav to htmlcov/index.html and open in chrome to see what is missing tests
+- you can see what tests you need to run this way
